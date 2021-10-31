@@ -1,0 +1,105 @@
+{
+    "id": "3fbb73de-98ba-47b4-ac48-12a8dfa8a4cf",
+    "sceneType": "SCENE",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level1",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "30deec72-84af-4725-b4d9-e6eec4001ceb",
+            "label": "level1_1",
+            "components": [],
+            "texture": {
+                "key": "Level1_1"
+            },
+            "x": 757,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "ff5b9199-e975-4618-94f0-48223a46895c",
+            "label": "level1Ground",
+            "components": [],
+            "texture": {
+                "key": "Level1Ground"
+            },
+            "x": 4,
+            "y": 1,
+            "originX": 0.04747801156397925,
+            "originY": 0.009737206310257901,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c71d6dfb-3cc1-442e-88a3-27d3323e4392",
+            "label": "exitOver",
+            "components": [],
+            "texture": {
+                "key": "exitOver"
+            },
+            "x": 1405,
+            "y": 704,
+            "scaleX": 0.9649079211260638,
+            "scaleY": 0.9649079211260638,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d09f47f6-6e70-4619-bb05-c387cc690bd2",
+            "label": "foreground_1",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "1foreground"
+            },
+            "x": 758,
+            "y": 494,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "66567377-6347-43b2-befc-3af5a77ab6c7",
+            "label": "close1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "goToLevel.sceneKey": "LevelSelect",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1471,
+            "y": 43
+        },
+        {
+            "type": "Image",
+            "id": "4e64230e-5601-4ff0-9ba7-dcfbb3c17410",
+            "label": "ball",
+            "components": [],
+            "texture": {
+                "key": "ball"
+            },
+            "x": 194,
+            "y": 197
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
