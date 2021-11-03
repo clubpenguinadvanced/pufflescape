@@ -1,0 +1,76 @@
+{
+    "components": [
+        {
+            "name": "PointerHandler",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "texOver",
+                    "label": "Texture Over",
+                    "tooltip": "mouse over texture for image",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                },
+                {
+                    "name": "texOut",
+                    "label": "Texture Out",
+                    "tooltip": "texOut",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                },
+                {
+                    "name": "texOn",
+                    "label": "Texture On",
+                    "tooltip": "texOn",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "goToLevel",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "sceneKey",
+                    "label": "SceneKey",
+                    "tooltip": "what is the level this button starts?",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "InteractiveObject",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "hideImage",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "javaScriptInitFieldsInConstructor": true
+}
