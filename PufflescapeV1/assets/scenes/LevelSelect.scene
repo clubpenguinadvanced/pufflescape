@@ -100,18 +100,6 @@
         },
         {
             "type": "Image",
-            "id": "37aa92b9-dd9f-44ff-acf1-5fddeb0b7b34",
-            "label": "buttonLock1_png_1",
-            "components": [],
-            "texture": {
-                "key": "buttons",
-                "frame": "buttonLock1.png"
-            },
-            "x": 917.5,
-            "y": 546
-        },
-        {
-            "type": "Image",
             "id": "465b0d9d-ce25-44b2-8b74-e5d2111bbfbc",
             "label": "buttonLock1_png_2",
             "components": [],
@@ -270,6 +258,53 @@
             "originX": 0,
             "originY": 0,
             "text": "Level2",
+            "fontSize": "36px",
+            "color": "#0c57a9ff",
+            "stroke": "#0c57a9ff",
+            "strokeThickness": 4
+        },
+        {
+            "type": "Image",
+            "id": "4239697e-3ce0-43b6-a622-a4f6e2d1d1c4",
+            "label": "buttonW1Bottom4_png_1_1",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Bottom4.png"
+            },
+            "x": 918,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "296334e2-092c-4991-8e58-aba34056ac20",
+            "label": "buttonW1Top1_png_1_1",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "buttonW1Top2.png",
+            "PointerHandler.texOut": "buttonW1Top1.png",
+            "PointerHandler.texOn": "buttonW1Top3.png",
+            "goToLevel.sceneKey": "Level3",
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Top1.png"
+            },
+            "x": 918,
+            "y": 505
+        },
+        {
+            "type": "Text",
+            "id": "941f5d94-b0dc-4ced-ba05-5978cdd85bd4",
+            "label": "text_2_1",
+            "components": [],
+            "x": 813,
+            "y": 475,
+            "originX": 0,
+            "originY": 0,
+            "text": "Level3",
             "fontSize": "36px",
             "color": "#0c57a9ff",
             "stroke": "#0c57a9ff",

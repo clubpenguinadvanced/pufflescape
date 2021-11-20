@@ -2,8 +2,6 @@
     "id": "3fbb73de-98ba-47b4-ac48-12a8dfa8a4cf",
     "sceneType": "SCENE",
     "settings": {
-        "snapWidth": 141,
-        "snapHeight": 25,
         "javaScriptInitFieldsInConstructor": true,
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
@@ -97,45 +95,15 @@
             "y": 197
         },
         {
-            "type": "Image",
-            "id": "bccefcd7-29b5-47ef-9b4b-9c04d7832faf",
-            "label": "symbol_2",
+            "type": "Rectangle",
+            "id": "3f355347-12dc-499d-a49d-79203b91773d",
+            "label": "rectangle",
             "components": [],
-            "texture": {
-                "key": "Symbol 2"
-            },
-            "x": 437,
-            "y": 839,
-            "scaleX": 1.082692047920357,
-            "scaleY": 1.082692047920357,
-            "angle": -34
-        },
-        {
-            "type": "Image",
-            "id": "8e91f66e-9b91-436f-8bd7-0c6451531a19",
-            "label": "symbol_2_1",
-            "components": [],
-            "texture": {
-                "key": "Symbol 2"
-            },
-            "x": 561,
-            "y": 806,
-            "scaleX": 1.1751539415470895,
-            "scaleY": 1.1751539415470895
-        },
-        {
-            "type": "Image",
-            "id": "9b5a216a-8e74-4ddc-bfba-79f299fa1e27",
-            "label": "symbol_3",
-            "components": [],
-            "texture": {
-                "key": "Symbol 3"
-            },
-            "x": 693,
-            "y": 840,
-            "scaleX": 0.651728376415618,
-            "scaleY": 0.651728376415618,
-            "angle": 31
+            "x": 650,
+            "y": 756,
+            "isFilled": true,
+            "width": 128,
+            "height": 50
         }
     ],
     "plainObjects": [],

@@ -4,7 +4,7 @@
 		"type": "fromPhysicsEditor",
 		"label": "ball",
 		"isStatic": false,
-		"density": 1,
+		"density": 3,
 		"restitution": 0,
 		"friction": 0.2,
 		"frictionAir": 0,
@@ -81,7 +81,7 @@
 	"Level1ChallengeGround": {
 		"type": "fromPhysicsEditor",
 		"label": "Level1ChallengeGround",
-		"isStatic": false,
+		"isStatic": true,
 		"density": 0.10000000149011612,
 		"restitution": 0,
 		"friction": 0.10000000149011612,
@@ -127,7 +127,7 @@
 	"Level1ReverseChallengeGround": {
 		"type": "fromPhysicsEditor",
 		"label": "Level1ReverseChallengeGround",
-		"isStatic": false,
+		"isStatic": true,
 		"density": 0.10000000149011612,
 		"restitution": 0,
 		"friction": 0.10000000149011612,
@@ -180,7 +180,7 @@
 	"Level1ReverseGround": {
 		"type": "fromPhysicsEditor",
 		"label": "Level1ReverseGround",
-		"isStatic": false,
+		"isStatic": true,
 		"density": 0.10000000149011612,
 		"restitution": 0,
 		"friction": 0.10000000149011612,
@@ -237,7 +237,7 @@
 	"LevelChooseTunnelGround": {
 		"type": "fromPhysicsEditor",
 		"label": "LevelChooseTunnelGround",
-		"isStatic": false,
+		"isStatic": true,
 		"density": 0.10000000149011612,
 		"restitution": 0,
 		"friction": 0.10000000149011612,

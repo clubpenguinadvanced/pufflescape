@@ -41,9 +41,6 @@ class LevelSelect extends Phaser.Scene {
 		// buttonW1Top1_png
 		const buttonW1Top1_png = this.add.image(311.5, 506, "buttons", "buttonW1Top1.png");
 
-		// buttonLock1_png_1
-		this.add.image(917.5, 546, "buttons", "buttonLock1.png");
-
 		// buttonLock1_png_2
 		this.add.image(1220.5, 546, "buttons", "buttonLock1.png");
 
@@ -86,6 +83,17 @@ class LevelSelect extends Phaser.Scene {
 		text_2.text = "Level2";
 		text_2.setStyle({"color":"#0c57a9ff","fontSize":"36px","stroke":"#0c57a9ff","strokeThickness":4});
 
+		// buttonW1Bottom4_png_1_1
+		this.add.image(918, 585, "buttons", "buttonW1Bottom4.png");
+
+		// buttonW1Top1_png_1_1
+		const buttonW1Top1_png_1_1 = this.add.image(918, 505, "buttons", "buttonW1Top1.png");
+
+		// text_2_1
+		const text_2_1 = this.add.text(813, 475, "", {});
+		text_2_1.text = "Level3";
+		text_2_1.setStyle({"color":"#0c57a9ff","fontSize":"36px","stroke":"#0c57a9ff","strokeThickness":4});
+
 		// buttonW1Top1_png (components)
 		new InteractiveObject(buttonW1Top1_png);
 		const buttonW1Top1_pngPointerHandler = new PointerHandler(buttonW1Top1_png);
@@ -110,6 +118,15 @@ class LevelSelect extends Phaser.Scene {
 		buttonW1Top1_png_1PointerHandler.texOn = "buttonW1Top3.png";
 		const buttonW1Top1_png_1goToLevel = new goToLevel(buttonW1Top1_png_1);
 		buttonW1Top1_png_1goToLevel.sceneKey = "Level2";
+
+		// buttonW1Top1_png_1_1 (components)
+		new InteractiveObject(buttonW1Top1_png_1_1);
+		const buttonW1Top1_png_1_1PointerHandler = new PointerHandler(buttonW1Top1_png_1_1);
+		buttonW1Top1_png_1_1PointerHandler.texOver = "buttonW1Top2.png";
+		buttonW1Top1_png_1_1PointerHandler.texOut = "buttonW1Top1.png";
+		buttonW1Top1_png_1_1PointerHandler.texOn = "buttonW1Top3.png";
+		const buttonW1Top1_png_1_1goToLevel = new goToLevel(buttonW1Top1_png_1_1);
+		buttonW1Top1_png_1_1goToLevel.sceneKey = "Level3";
 
 		this.events.emit("scene-awake");
 	}

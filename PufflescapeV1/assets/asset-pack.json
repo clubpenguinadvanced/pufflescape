@@ -89,6 +89,21 @@
                 "key": "Level2"
             },
             {
+                "url": "assets/scenes/w1/Level3.js",
+                "type": "sceneFile",
+                "key": "Level3"
+            },
+            {
+                "url": "assets/images/level3foreground.png",
+                "type": "image",
+                "key": "level3foreground"
+            },
+            {
+                "url": "assets/images/level3ground.png",
+                "type": "image",
+                "key": "level3ground"
+            },
+            {
                 "url": "assets/gShapes/Level4Ground.png",
                 "type": "image",
                 "key": "Level4Ground"
@@ -142,16 +157,6 @@
                 "url": "assets/images/Pufflescape_Logo.png",
                 "type": "image",
                 "key": "Pufflescape_Logo"
-            },
-            {
-                "url": "assets/images/Symbol 2.png",
-                "type": "image",
-                "key": "Symbol 2"
-            },
-            {
-                "url": "assets/images/Symbol 3.png",
-                "type": "image",
-                "key": "Symbol 3"
             },
             {
                 "url": "assets/images/w1.png",

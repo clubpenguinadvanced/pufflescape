@@ -23,7 +23,6 @@ class Level2 extends Phaser.Scene {
 		// level1ReverseGround
 		const level1ReverseGround = this.add.image(5, -2, "Level1ReverseGround");
 		level1ReverseGround.setOrigin(0.040668533791032455, 0.007810854921333314);
-		level1ReverseGround.visible = false;
 
 		// exitOver
 		const exitOver = this.add.image(1416, 745, "exitOver");
@@ -60,6 +59,9 @@ class Level2 extends Phaser.Scene {
 	create() {
 
 		this.editorCreate();
+		const col = this.cache.json.get('collision1');
+		const ground = this.matter.add.fromPhysicsEditor(826, 618, col.Level1ReverseGround, /*{position: {x: 0, y: 0}}*/);
+		ball = this.matter.add.sprite(1399, 182, "ball", "ball", { shape: col.ball });
 	}
 
 	/* END-USER-CODE */
