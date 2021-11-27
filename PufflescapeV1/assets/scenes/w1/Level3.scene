@@ -1,0 +1,90 @@
+{
+    "id": "587bccbd-048b-4367-a007-c06d4bca65a5",
+    "sceneType": "SCENE",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level3",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "f5b2db10-a240-400e-a0f6-e771c7f798ad",
+            "label": "level3ground",
+            "components": [],
+            "texture": {
+                "key": "level3ground"
+            },
+            "x": 2,
+            "y": 4,
+            "originX": 0.040531702945618746,
+            "originY": 0.06354770678534626
+        },
+        {
+            "type": "Image",
+            "id": "090b70bf-715e-4b88-80e0-2a9d73dd0875",
+            "label": "exitOver",
+            "components": [],
+            "texture": {
+                "key": "exitOver"
+            },
+            "x": 116,
+            "y": 740,
+            "scaleX": 0.9221678178442946,
+            "scaleY": 0.9221678178442946,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "49e721c4-4de7-4341-903c-704022880f98",
+            "label": "level3foreground",
+            "components": [],
+            "texture": {
+                "key": "level3foreground"
+            },
+            "x": 974,
+            "y": 496
+        },
+        {
+            "type": "Image",
+            "id": "0d77fdb8-dfb4-41aa-ac20-569bcac0c02c",
+            "label": "levelChooseTunnelGround",
+            "components": [],
+            "texture": {
+                "key": "LevelChooseTunnelGround"
+            },
+            "x": 973,
+            "y": 501
+        },
+        {
+            "type": "Image",
+            "id": "c4194e65-07f7-472c-a035-f8bb78b78b3f",
+            "label": "close1_png",
+            "components": [
+                "goToLevel",
+                "PointerHandler",
+                "InteractiveObject"
+            ],
+            "goToLevel.sceneKey": "LevelSelect",
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1486,
+            "y": 37
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
