@@ -1,0 +1,251 @@
+{
+    "id": "3fbb73de-98ba-47b4-ac48-12a8dfa8a4cf",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 141,
+        "snapHeight": 25,
+        "javaScriptInitFieldsInConstructor": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level1",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "30deec72-84af-4725-b4d9-e6eec4001ceb",
+            "label": "level1_1",
+            "components": [],
+            "texture": {
+                "key": "Level1_1"
+            },
+            "x": 757,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "ff5b9199-e975-4618-94f0-48223a46895c",
+            "label": "level1Ground",
+            "components": [],
+            "texture": {
+                "key": "Level1Ground"
+            },
+            "x": 4,
+            "y": 1,
+            "originX": 0.04747801156397925,
+            "originY": 0.009737206310257901,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "c71d6dfb-3cc1-442e-88a3-27d3323e4392",
+            "label": "exitOver",
+            "components": [],
+            "texture": {
+                "key": "exitOver"
+            },
+            "x": 1405,
+            "y": 704,
+            "scaleX": 0.9649079211260638,
+            "scaleY": 0.9649079211260638,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "d09f47f6-6e70-4619-bb05-c387cc690bd2",
+            "label": "foreground_1",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "1foreground"
+            },
+            "x": 758,
+            "y": 494,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "66567377-6347-43b2-befc-3af5a77ab6c7",
+            "label": "close1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "goToLevel.sceneKey": "LevelSelect",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1471,
+            "y": 43
+        },
+        {
+            "type": "Image",
+            "id": "4e64230e-5601-4ff0-9ba7-dcfbb3c17410",
+            "label": "ball",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "ball"
+            },
+            "x": 194,
+            "y": 197
+        },
+        {
+            "type": "Image",
+            "id": "bccefcd7-29b5-47ef-9b4b-9c04d7832faf",
+            "label": "symbol_2",
+            "components": [],
+            "texture": {
+                "key": "Symbol 2"
+            },
+            "x": 433,
+            "y": 842,
+            "scaleX": 1.082692047920357,
+            "scaleY": 1.082692047920357,
+            "angle": -34
+        },
+        {
+            "type": "Image",
+            "id": "b8e70cb4-3e53-4f88-b74a-8ae9d1c47390",
+            "label": "symbol_2_1",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "Symbol 2"
+            },
+            "x": 566,
+            "y": 807,
+            "scaleX": 1.2226632606777537,
+            "scaleY": 1.2226632606777537
+        },
+        {
+            "type": "Image",
+            "id": "9b5a216a-8e74-4ddc-bfba-79f299fa1e27",
+            "label": "symbol_3",
+            "components": [],
+            "texture": {
+                "key": "Symbol 3"
+            },
+            "x": 693,
+            "y": 841,
+            "scaleX": 0.651728376415618,
+            "scaleY": 0.651728376415618,
+            "angle": 31
+        },
+        {
+            "type": "Rectangle",
+            "id": "47030158-d3cf-4e9a-aabf-5c1a406e2270",
+            "label": "rectangle",
+            "components": [
+                "hideImage"
+            ],
+            "x": 551,
+            "y": 834,
+            "scaleX": 0.5836364623470147,
+            "scaleY": 0.20127176681410605,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "2c6f13d7-7850-4ae6-9461-7ca78f1ac099",
+            "label": "rectangle_1",
+            "components": [
+                "hideImage"
+            ],
+            "x": 629,
+            "y": 730,
+            "scaleX": 0.1170975530768291,
+            "scaleY": 0.4837246178719503,
+            "angle": -14,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "7c54d9d7-e9a4-4a4f-ad08-d65f893aa770",
+            "label": "door",
+            "components": [],
+            "x": 1224,
+            "y": 730,
+            "isFilled": true,
+            "fillColor": "#861b99",
+            "width": 64,
+            "height": 350
+        },
+        {
+            "type": "Rectangle",
+            "id": "dd5c0c8d-64f5-4163-9463-644aed590b9d",
+            "label": "exit",
+            "components": [],
+            "x": 1486,
+            "y": 770,
+            "isFilled": true,
+            "fillColor": "#7e0c0c",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "c81f17b5-3288-4296-ba8d-586255cb4e92",
+            "label": "key",
+            "components": [],
+            "x": 46,
+            "y": 789,
+            "isFilled": true,
+            "fillColor": "#ecd740",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Container",
+            "id": "44640757-83d6-44f3-9191-9def895ec32f",
+            "label": "endScreen",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4c9760da-6eef-424d-a539-cfca26e30a2c",
+                    "label": "w1",
+                    "components": [],
+                    "texture": {
+                        "key": "w1"
+                    },
+                    "x": -928,
+                    "y": 459
+                },
+                {
+                    "type": "Text",
+                    "id": "ae335cb6-6b05-44d7-9316-89404935ced3",
+                    "label": "text",
+                    "components": [],
+                    "x": -1388,
+                    "y": 422,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Level Complete",
+                    "fontSize": "100px",
+                    "color": "#000000ff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
