@@ -1,3 +1,0 @@
-make ground static
-fix lvl3 collision
-declare collision in main
