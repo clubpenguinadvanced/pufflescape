@@ -1,0 +1,104 @@
+{
+    "id": "37e4c26a-ce2c-4180-a673-1b64b726537b",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level2",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "562f4752-f638-497e-9a2b-1d4605ccef78",
+            "label": "level1Reverse",
+            "components": [],
+            "texture": {
+                "key": "Level1Reverse"
+            },
+            "x": 2,
+            "y": 1,
+            "originX": 0.04091042983660423,
+            "originY": 0.013599382178787561
+        },
+        {
+            "type": "Image",
+            "id": "89b1c2b8-e713-4c59-9fc6-5d36e3c28a5d",
+            "label": "level1ReverseGround",
+            "components": [],
+            "texture": {
+                "key": "Level1ReverseGround"
+            },
+            "x": 5,
+            "y": -2,
+            "originX": 0.040668533791032455,
+            "originY": 0.007810854921333314,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "573df641-3986-4099-bb1b-dd4115748626",
+            "label": "exitOver",
+            "components": [],
+            "texture": {
+                "key": "exitOver"
+            },
+            "x": 1416,
+            "y": 745,
+            "scaleX": 0.8412741225231923,
+            "scaleY": 0.8412741225231923,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "940f2612-c999-47f9-bb14-87c861e53e4e",
+            "label": "foreground2",
+            "components": [],
+            "texture": {
+                "key": "foreground2"
+            },
+            "x": 775,
+            "y": 499,
+            "visible": false
+        },
+        {
+            "type": "Image",
+            "id": "97e01030-e126-4e40-8e1b-24b7dddb00ab",
+            "label": "ball",
+            "components": [],
+            "texture": {
+                "key": "ball"
+            },
+            "x": 1399,
+            "y": 182
+        },
+        {
+            "type": "Image",
+            "id": "9a524f34-1290-4a0b-9a36-57054273af1d",
+            "label": "close1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "goToLevel.sceneKey": "LevelSelect",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1484,
+            "y": 37
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
