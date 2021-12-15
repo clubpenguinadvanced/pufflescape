@@ -1,4 +1,4 @@
 # pufflescape
 phaser recreation of pufflescape
 
-11/30 - physics engine just about done, working on collectables.  everything still needs to be tested tho
+12/14 - shit is modulated, i can actally make levels pretty quickly now
