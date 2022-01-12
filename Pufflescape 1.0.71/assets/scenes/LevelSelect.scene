@@ -1,0 +1,287 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "LevelSelect",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "7d5827fd-34f6-473f-90e0-b9424a51d5fa",
+            "label": "dino",
+            "components": [
+                "PushOnClick"
+            ],
+            "texture": {
+                "key": "dino"
+            },
+            "x": -323,
+            "y": 152
+        },
+        {
+            "type": "Image",
+            "id": "3d53032f-a2cc-45b3-ac7f-db5d4472039d",
+            "label": "menubkgr",
+            "components": [],
+            "texture": {
+                "key": "menubkgr"
+            },
+            "x": 2,
+            "originX": 0.0284935921284077,
+            "originY": 0.006974264039100287
+        },
+        {
+            "type": "Image",
+            "id": "218eb3f9-2630-48cf-bc98-5d02caca47ab",
+            "label": "w3",
+            "components": [],
+            "texture": {
+                "key": "w3"
+            },
+            "x": 1181,
+            "y": 725
+        },
+        {
+            "type": "Image",
+            "id": "89d12c96-d86f-4c27-a99a-57db20c293e0",
+            "label": "w2",
+            "components": [],
+            "texture": {
+                "key": "w2"
+            },
+            "x": 761,
+            "y": 609
+        },
+        {
+            "type": "Image",
+            "id": "d2843fce-b1f2-4a2e-b8b0-4abf1cd7d9f8",
+            "label": "w1",
+            "components": [],
+            "texture": {
+                "key": "w1"
+            },
+            "x": 798,
+            "y": 608
+        },
+        {
+            "type": "Image",
+            "id": "95da1d10-492f-43be-b1fd-f5059fce5e6c",
+            "label": "buttonW1Top1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "buttonW1Top2.png",
+            "PointerHandler.texOut": "buttonW1Top1.png",
+            "PointerHandler.texOn": "buttonW1Top3.png",
+            "goToLevel.sceneKey": "Level1",
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Top1.png"
+            },
+            "x": 311.5,
+            "y": 506
+        },
+        {
+            "type": "Image",
+            "id": "37aa92b9-dd9f-44ff-acf1-5fddeb0b7b34",
+            "label": "buttonLock1_png_1",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 917.5,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "465b0d9d-ce25-44b2-8b74-e5d2111bbfbc",
+            "label": "buttonLock1_png_2",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 1220.5,
+            "y": 546
+        },
+        {
+            "type": "Image",
+            "id": "17878ac1-9143-43db-9d61-a33daaa99438",
+            "label": "buttonLock1_png_3",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 311.5,
+            "y": 737
+        },
+        {
+            "type": "Image",
+            "id": "332b3695-df2b-4d97-8486-9b5472d1f059",
+            "label": "buttonLock1_png_4",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 614.5,
+            "y": 737
+        },
+        {
+            "type": "Image",
+            "id": "f78604eb-49e1-45c4-aa98-63169d4cfd3f",
+            "label": "buttonLock1_png_5",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 917.5,
+            "y": 737
+        },
+        {
+            "type": "Image",
+            "id": "88922deb-0b12-4356-a7a4-2e003ebfab44",
+            "label": "buttonLock1_png_6",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonLock1.png"
+            },
+            "x": 1220.5,
+            "y": 737
+        },
+        {
+            "type": "Image",
+            "id": "ef02902b-414f-408d-83f9-bec5970ba07b",
+            "label": "buttonW1Bottom4_png",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Bottom4.png"
+            },
+            "x": 311,
+            "y": 586
+        },
+        {
+            "type": "Text",
+            "id": "9142e32c-5dc1-4956-a859-91cbfc4b962d",
+            "label": "text",
+            "components": [],
+            "x": 201,
+            "y": 475,
+            "originX": 0,
+            "originY": 0,
+            "text": "Level1",
+            "fontSize": "36px",
+            "color": "#0c57a9ff",
+            "stroke": "#0c57a9ff",
+            "strokeThickness": 4
+        },
+        {
+            "type": "Image",
+            "id": "310f5c7b-6acb-48e6-aa86-b16c4b297747",
+            "label": "pufflescape_Logo",
+            "components": [],
+            "texture": {
+                "key": "Pufflescape_Logo"
+            },
+            "x": 760,
+            "y": 152,
+            "scaleX": 0.8751793368259682,
+            "scaleY": 0.8751793368259682
+        },
+        {
+            "type": "Image",
+            "id": "b5b58f4d-314b-455c-b008-e7716b37d1f6",
+            "label": "close1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler"
+            ],
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1480,
+            "y": 39
+        },
+        {
+            "type": "Image",
+            "id": "5ce78be2-d0a8-4148-97f3-f084a3c69a99",
+            "label": "buttonW1Bottom4_png_1",
+            "components": [],
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Bottom4.png"
+            },
+            "x": 614,
+            "y": 585
+        },
+        {
+            "type": "Image",
+            "id": "fadc802c-0dbc-4746-8725-e4d1b05e33b7",
+            "label": "buttonW1Top1_png_1",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "buttonW1Top2.png",
+            "PointerHandler.texOut": "buttonW1Top1.png",
+            "PointerHandler.texOn": "buttonW1Top3.png",
+            "goToLevel.sceneKey": "Level2",
+            "texture": {
+                "key": "buttons",
+                "frame": "buttonW1Top1.png"
+            },
+            "x": 614,
+            "y": 505
+        },
+        {
+            "type": "Text",
+            "id": "ce1fae7d-612e-4198-87cc-88ce5389fc66",
+            "label": "text_2",
+            "components": [],
+            "x": 509,
+            "y": 475,
+            "originX": 0,
+            "originY": 0,
+            "text": "Level2",
+            "fontSize": "36px",
+            "color": "#0c57a9ff",
+            "stroke": "#0c57a9ff",
+            "strokeThickness": 4
+        },
+        {
+            "type": "Text",
+            "id": "87b2f15c-b877-4d23-8083-90f6b4619599",
+            "label": "text_3",
+            "components": [],
+            "x": -528,
+            "y": 276,
+            "originX": 0,
+            "originY": 0,
+            "text": "emotional support dino",
+            "fontSize": "30px"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
