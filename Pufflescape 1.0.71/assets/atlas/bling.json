@@ -1,0 +1,850 @@
+{
+	"textures": [
+		{
+			"image": "bling-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1970,
+				"h": 1955
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bling0001.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0002.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0003.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0004.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0005.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0006.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0007.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0008.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0009.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0010.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0011.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0012.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0013.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0014.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0015.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0016.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 1173,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0017.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 1173,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0018.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 1173,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0019.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 1173,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0020.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 1173,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0021.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 1564,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0022.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 1564,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0023.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 1564,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0024.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 1564,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0025.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 1564,
+						"w": 394,
+						"h": 391
+					}
+				}
+			]
+		},
+		{
+			"image": "bling-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1970,
+				"h": 1173
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bling0026.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0027.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0028.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0029.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0030.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0031.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0032.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0033.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0034.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0035.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1576,
+						"y": 391,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0036.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 0,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0037.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 394,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0038.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 788,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				},
+				{
+					"filename": "bling0039.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 394,
+						"h": 391
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 394,
+						"h": 391
+					},
+					"frame": {
+						"x": 1182,
+						"y": 782,
+						"w": 394,
+						"h": 391
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:d9025416777f375c4f86e57207f4e5c6:16dd888db93325c6326d371cc61c0a9b:c864c823d318f8d68dd0c1642de073b0$"
+	}
+}

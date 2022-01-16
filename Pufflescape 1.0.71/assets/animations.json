@@ -1,0 +1,4374 @@
+{
+    "anims": [
+        {
+            "key": "buttonFinal,buttonLock,buttonW1Bottom,buttonW1Top,buttonW2Bottom,buttonW2Top,buttonW3Bottom,buttonW3Top,close,key,oberrysingular,purple,Purple_Idle,animation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonFinal1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonFinal2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonFinal3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonFinal4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonLock",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonLock1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonLock2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonLock3.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW1Bottom",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Bottom1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Bottom2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Bottom3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Bottom4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW1Top",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Top1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Top2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW1Top3.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW2Bottom",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Bottom1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Bottom2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Bottom3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Bottom4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW2Top",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Top1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Top2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW2Top3.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW3Bottom",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Bottom1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Bottom2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Bottom3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Bottom4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "buttonW3Top",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Top1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Top2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "buttonW3Top3.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "close",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "buttons",
+                    "frame": "close1.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "close2.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "close3.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "buttons",
+                    "frame": "close4.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "key",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "key0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "key0060.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "oberrysingular",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "collectables",
+                    "frame": "oberrysingular0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "purple",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0060.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0061.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0062.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0063.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0064.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0065.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0066.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0067.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0068.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0069.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0070.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0071.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0072.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0073.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0074.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0075.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0076.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0077.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0078.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0079.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0080.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0081.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0082.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0083.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0084.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0085.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0086.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0087.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0088.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0089.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0090.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0091.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0092.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0093.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0094.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0095.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0096.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0097.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0098.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0099.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0100.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0101.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0102.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0103.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0104.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0105.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0106.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0107.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0108.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0109.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0110.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0111.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0112.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0113.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0114.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0115.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0116.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0117.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0118.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0119.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0120.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0121.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0122.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0123.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0124.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0125.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0126.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0127.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0128.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0129.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0130.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0131.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0132.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0133.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0134.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0135.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0136.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0137.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0138.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0139.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0140.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0141.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0142.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0143.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0144.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0145.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0146.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0147.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0148.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0149.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0150.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0151.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0152.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0153.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0154.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0155.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0156.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0157.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0158.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0159.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0160.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0161.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0162.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0163.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0164.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0165.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0166.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0167.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0168.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0169.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0170.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0171.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0172.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0173.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0174.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0175.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0176.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0177.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0178.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0179.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0180.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0181.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0182.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0183.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0184.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0185.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0186.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0187.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0188.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0189.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0190.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0191.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0192.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0193.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0194.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0195.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0196.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0197.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0198.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0199.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0200.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0201.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0202.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0203.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0204.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0205.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0206.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0207.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0208.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0209.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0210.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0211.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0212.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0213.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0214.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0215.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0216.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0217.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0218.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0219.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0220.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0221.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0222.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0223.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0224.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0225.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0226.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0227.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0228.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0229.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0230.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0231.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0232.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0233.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Purple_Idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0060.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0061.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0062.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0063.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0064.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0065.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0066.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0067.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0068.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0069.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0070.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0071.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0072.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0073.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0074.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0075.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0076.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0077.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0078.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0079.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0080.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0081.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0082.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0083.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0084.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0085.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0086.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0087.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0088.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0089.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0090.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0091.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0092.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0093.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0094.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0095.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0096.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0097.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0098.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0099.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0100.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0101.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0102.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0103.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0104.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0105.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0106.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0107.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0108.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0109.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0110.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0111.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0112.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0113.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0114.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0115.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0116.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0117.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0118.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0119.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0120.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0121.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0122.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0123.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0124.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0125.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0126.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0127.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0128.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0129.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0130.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0131.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0132.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0133.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0134.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0135.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0136.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0137.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0138.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0139.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0140.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0141.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0142.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0143.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0144.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0145.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0146.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0147.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0148.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0149.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0150.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0151.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0152.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0153.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0154.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0155.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0156.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0157.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0158.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0159.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0160.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0161.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0162.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0163.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0164.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0165.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0166.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0167.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0168.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0169.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0170.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0171.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0172.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0173.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0174.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0175.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0176.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0177.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0178.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0179.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0180.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0181.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0182.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0183.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0184.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0185.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0186.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0187.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0188.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Purple_Air",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0189.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0190.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0191.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0192.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0193.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0194.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0195.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0196.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0197.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0198.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0199.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0200.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0201.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0202.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "Purple_Down",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0205.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0206.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0207.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0208.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0209.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0210.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0211.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0212.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0213.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "Purple_Shiny",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0215.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0216.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0217.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0218.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0219.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0220.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0221.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0222.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0223.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0224.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0225.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0226.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0227.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0228.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0229.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0230.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0231.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0232.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PurpleSprites",
+                    "frame": "purple0233.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "RampExample",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840039.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840040.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840041.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840042.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840043.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840044.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840045.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840046.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840047.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840048.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840049.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840050.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840051.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840052.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840053.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840054.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840055.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840056.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840057.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840058.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840059.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840060.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840061.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840062.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840063.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840064.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840065.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840066.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840067.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840068.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840069.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840070.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840071.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840072.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840073.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840074.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840075.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840076.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840077.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RampExample",
+                    "frame": "Symbol 15840001.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 1500
+        },
+        {
+            "key": "KeyExample",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "20",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "2",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "91",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Bling",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bling",
+                    "frame": "bling0001.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0002.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0003.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0004.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0005.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0006.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0007.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0008.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0009.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0010.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0011.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0012.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0013.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0014.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0015.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0016.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0017.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0018.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0019.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0020.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0021.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0022.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0023.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0024.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0025.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0026.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0027.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0028.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0029.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0030.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0031.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0032.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0033.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0034.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0035.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0036.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0037.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0038.png",
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "bling",
+                    "frame": "bling0039.png",
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 45,
+            "skipMissedFrames": true,
+            "hideOnComplete": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "id": "446b7b9d-6772-41dd-acab-32a48ea146fb",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "0f4f38b1-f6a9-431a-9153-6a823c1b0bdc",
+            "label": "ui buttons",
+            "scope": "PUBLIC",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "dba11d20-86e8-4348-b10e-e9a95383d9e1",
+                    "label": "hintOut_png",
+                    "scope": "PUBLIC",
+                    "components": [
+                        "InteractiveObject",
+                        "PointerHandler",
+                        "hint"
+                    ],
+                    "PointerHandler.texOver": "hintOver.png",
+                    "PointerHandler.texOut": "hintOut.png",
+                    "PointerHandler.texOn": "hintOn.png",
+                    "texture": {
+                        "key": "uiButtons",
+                        "frame": "hintOut.png"
+                    },
+                    "x": 168,
+                    "y": 54
+                },
+                {
+                    "type": "Image",
+                    "id": "98bcc3cc-bb50-4988-9236-60c264a85572",
+                    "label": "pauseOut_png",
+                    "scope": "PUBLIC",
+                    "components": [
+                        "InteractiveObject",
+                        "PointerHandler",
+                        "pause"
+                    ],
+                    "PointerHandler.texOver": "pauseOver.png",
+                    "PointerHandler.texOut": "pauseOut.png",
+                    "PointerHandler.texOn": "pauseDown.png",
+                    "texture": {
+                        "key": "uiButtons",
+                        "frame": "pauseOut.png"
+                    },
+                    "x": 68,
+                    "y": 54
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}

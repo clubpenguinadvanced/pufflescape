@@ -1,0 +1,399 @@
+{
+    "id": "aaf4eb2a-8d13-4319-ac56-f4e771c48322",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 141,
+        "snapHeight": 25,
+        "javaScriptInitFieldsInConstructor": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Template",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "30deec72-84af-4725-b4d9-e6eec4001ceb",
+            "label": "level1_1",
+            "components": [],
+            "texture": {
+                "key": "Level1_1"
+            },
+            "x": 757,
+            "y": 494
+        },
+        {
+            "type": "Image",
+            "id": "ff5b9199-e975-4618-94f0-48223a46895c",
+            "label": "level1Ground",
+            "components": [],
+            "texture": {
+                "key": "Level1Ground"
+            },
+            "x": 4,
+            "y": 1,
+            "originX": 0.04747801156397925,
+            "originY": 0.009737206310257901,
+            "visible": false
+        },
+        {
+            "type": "Layer",
+            "id": "bc422a5c-b4ea-435f-a37d-c747054646bb",
+            "label": "foreground",
+            "scope": "PUBLIC",
+            "components": [
+                "showImage"
+            ],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "c71d6dfb-3cc1-442e-88a3-27d3323e4392",
+                    "label": "exitOver",
+                    "components": [],
+                    "texture": {
+                        "key": "exitOver"
+                    },
+                    "x": 1405,
+                    "y": 704,
+                    "scaleX": 0.9649079211260638,
+                    "scaleY": 0.9649079211260638
+                },
+                {
+                    "type": "Image",
+                    "id": "d09f47f6-6e70-4619-bb05-c387cc690bd2",
+                    "label": "foreground_1",
+                    "components": [],
+                    "texture": {
+                        "key": "1foreground"
+                    },
+                    "x": 758,
+                    "y": 494
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "66567377-6347-43b2-befc-3af5a77ab6c7",
+            "label": "close1_png",
+            "components": [
+                "InteractiveObject",
+                "PointerHandler",
+                "goToLevel"
+            ],
+            "PointerHandler.texOver": "close2.png",
+            "PointerHandler.texOut": "close1.png",
+            "PointerHandler.texOn": "close3.png",
+            "goToLevel.sceneKey": "LevelSelect",
+            "texture": {
+                "key": "buttons",
+                "frame": "close1.png"
+            },
+            "x": 1472,
+            "y": 43
+        },
+        {
+            "type": "Image",
+            "id": "8e595810-1de9-4f9f-aedd-515f86292024",
+            "label": "ballShadowUnder",
+            "scope": "PUBLIC",
+            "components": [],
+            "texture": {
+                "key": "ballShadowUnder"
+            },
+            "x": 110,
+            "y": 197
+        },
+        {
+            "type": "Sprite",
+            "id": "05d82d56-b98e-493d-8f1e-a8499b4ca23d",
+            "label": "puffleAnims",
+            "scope": "PUBLIC",
+            "components": [],
+            "texture": {
+                "key": "PurpleSprites",
+                "frame": "purple0001.png"
+            },
+            "x": 108,
+            "y": 196,
+            "scaleX": 0.39444245274643,
+            "scaleY": 0.39444245274643
+        },
+        {
+            "type": "Image",
+            "id": "5392a6c7-0767-41db-a1ef-f18940efa248",
+            "label": "ballShadowOver",
+            "scope": "PUBLIC",
+            "components": [],
+            "texture": {
+                "key": "ballShadowOver"
+            },
+            "x": 109,
+            "y": 197
+        },
+        {
+            "type": "Image",
+            "id": "4e64230e-5601-4ff0-9ba7-dcfbb3c17410",
+            "label": "BallObject",
+            "scope": "PUBLIC",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "ball"
+            },
+            "x": 109,
+            "y": 197
+        },
+        {
+            "type": "Image",
+            "id": "b8e70cb4-3e53-4f88-b74a-8ae9d1c47390",
+            "label": "symbol_2_1",
+            "components": [
+                "hideImage"
+            ],
+            "texture": {
+                "key": "Symbol 2"
+            },
+            "x": 1565,
+            "y": 1084,
+            "scaleX": 1.2226632606777537,
+            "scaleY": 1.2226632606777537
+        },
+        {
+            "type": "Rectangle",
+            "id": "47030158-d3cf-4e9a-aabf-5c1a406e2270",
+            "label": "rectangle",
+            "components": [
+                "hideImage"
+            ],
+            "x": 1550,
+            "y": 1111,
+            "scaleX": 0.5836364623470147,
+            "scaleY": 0.20127176681410605,
+            "isFilled": true,
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "7c54d9d7-e9a4-4a4f-ad08-d65f893aa770",
+            "label": "door",
+            "components": [
+                "Door"
+            ],
+            "x": 1689,
+            "y": 767,
+            "isFilled": true,
+            "fillColor": "#861b99",
+            "width": 64,
+            "height": 350
+        },
+        {
+            "type": "Rectangle",
+            "id": "dd5c0c8d-64f5-4163-9463-644aed590b9d",
+            "label": "exit",
+            "components": [
+                "Exit"
+            ],
+            "x": 1834,
+            "y": 781,
+            "isFilled": true,
+            "fillColor": "#7e0c0c",
+            "width": 128,
+            "height": 128
+        },
+        {
+            "type": "Rectangle",
+            "id": "c81f17b5-3288-4296-ba8d-586255cb4e92",
+            "label": "key",
+            "components": [
+                "Key"
+            ],
+            "Key.scale": 0.8,
+            "x": 1936,
+            "y": 515,
+            "isFilled": true,
+            "fillColor": "#ecd740",
+            "width": 146,
+            "height": 78
+        },
+        {
+            "type": "Rectangle",
+            "id": "5fe3a6f7-185e-49c7-b0d2-d8063e8adcc2",
+            "label": "rectangle_2",
+            "components": [
+                "OberrySingular"
+            ],
+            "OberrySingular.scale": 0.8,
+            "x": 1632,
+            "y": 398,
+            "isFilled": true,
+            "fillColor": "#df8900",
+            "width": 51,
+            "height": 82
+        },
+        {
+            "type": "Rectangle",
+            "id": "60b90003-8c00-44a6-aaef-9338c2f8d5c6",
+            "label": "rectangle_2_1",
+            "components": [
+                "OberrySingular"
+            ],
+            "OberrySingular.scale": 0.8,
+            "x": 1791,
+            "y": 395,
+            "isFilled": true,
+            "fillColor": "#df8900",
+            "width": 51,
+            "height": 82
+        },
+        {
+            "type": "Container",
+            "id": "19326cfe-a56e-4666-a88f-50bcb9da58ac",
+            "label": "rectGroup",
+            "components": [],
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "c70ef2a1-64c1-4652-a12c-b96a79ae41a6",
+            "label": "hintMap",
+            "scope": "PUBLIC",
+            "components": [],
+            "texture": {
+                "key": "Level1Hint"
+            },
+            "x": 747,
+            "y": 495
+        },
+        {
+            "prefabId": "446b7b9d-6772-41dd-acab-32a48ea146fb",
+            "id": "9adc639c-3b72-45f7-ac64-e3ef247a60f6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "ui buttons",
+            "scope": "PUBLIC",
+            "components": [],
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Image",
+            "id": "a90fbae4-3ca9-42e6-8619-1c506b2606f4",
+            "label": "hintMask",
+            "scope": "PUBLIC",
+            "components": [],
+            "texture": {
+                "key": "hintMask"
+            },
+            "x": -1843,
+            "originX": 0,
+            "originY": 0
+        },
+        {
+            "prefabId": "c58d1867-5649-492a-ac5a-4ef091be9d17",
+            "id": "d02fef48-7228-4f4b-add1-4dd1e806c49e",
+            "unlock": [
+                "x",
+                "y",
+                "scaleX",
+                "scaleY"
+            ],
+            "label": "pauseScreen",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": -753,
+            "y": 1373,
+            "nestedPrefabs": []
+        },
+        {
+            "type": "Container",
+            "id": "1b3bfc01-1ce9-4829-aa50-91b4f1754965",
+            "label": "endScreen",
+            "scope": "PUBLIC",
+            "components": [],
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "3b4c63d9-c01a-403a-a3a1-35e2c5d27809",
+                    "label": "menuFade",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": -760,
+                    "y": 480,
+                    "alpha": 0,
+                    "isFilled": true,
+                    "fillColor": "#000000",
+                    "width": 1520,
+                    "height": 960
+                },
+                {
+                    "type": "Image",
+                    "id": "59f846c3-fb3f-4c61-af61-7ef36f45f757",
+                    "label": "w1",
+                    "components": [],
+                    "texture": {
+                        "key": "w1"
+                    },
+                    "x": -734,
+                    "y": 498
+                },
+                {
+                    "type": "Text",
+                    "id": "6126e946-73a2-4729-a45f-668e7573b313",
+                    "label": "text",
+                    "components": [],
+                    "x": -1136,
+                    "y": 457,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Level Complete",
+                    "fontSize": "100px",
+                    "color": "#000000ff"
+                },
+                {
+                    "type": "Image",
+                    "id": "e9981ff1-4468-42ab-bcfa-8f31d8d82757",
+                    "label": "buttonFinal1_png",
+                    "components": [
+                        "InteractiveObject",
+                        "goToLevel",
+                        "PointerHandler"
+                    ],
+                    "goToLevel.sceneKey": "LevelSelect",
+                    "PointerHandler.texOver": "buttonFinal2.png",
+                    "PointerHandler.texOut": "buttonFinal1.png",
+                    "PointerHandler.texOn": "buttonFinal3.png",
+                    "texture": {
+                        "key": "buttons",
+                        "frame": "buttonFinal1.png"
+                    },
+                    "x": -770,
+                    "y": 650
+                },
+                {
+                    "type": "Text",
+                    "id": "59a0a796-9800-4160-8616-5ce80aeb11fe",
+                    "label": "text_1",
+                    "components": [],
+                    "x": -969,
+                    "y": 622,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Return to Menu",
+                    "fontSize": "50px",
+                    "color": "#43566fff"
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    }
+}
