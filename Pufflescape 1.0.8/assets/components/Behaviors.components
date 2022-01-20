@@ -1,0 +1,212 @@
+{
+    "components": [
+        {
+            "name": "PointerHandler",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "texOver",
+                    "label": "Texture Over",
+                    "tooltip": "mouse over texture for image",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                },
+                {
+                    "name": "texOut",
+                    "label": "Texture Out",
+                    "tooltip": "texOut",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                },
+                {
+                    "name": "texOn",
+                    "label": "Texture On",
+                    "tooltip": "texOn",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "goToLevel",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "sceneKey",
+                    "label": "SceneKey",
+                    "tooltip": "what is the level this button starts?",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "InteractiveObject",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "hideImage",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "MatterZone",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": []
+        },
+        {
+            "name": "OberrySingular",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Rectangle",
+            "properties": [
+                {
+                    "name": "color",
+                    "label": "Color",
+                    "tooltip": "puffleColor",
+                    "defValue": "Purple",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "scale",
+                    "label": "Scale",
+                    "tooltip": "scale",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Key",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "color",
+                    "label": "Color",
+                    "tooltip": "puffleColor",
+                    "defValue": "Purple",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "string"
+                    }
+                },
+                {
+                    "name": "scale",
+                    "label": "scale",
+                    "tooltip": "scale",
+                    "defValue": 1,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "BallObject",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "SceneConfigOptions",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "scale",
+                    "label": "Scale",
+                    "tooltip": "ball scale",
+                    "defValue": 0,
+                    "customDefinition": false,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Door",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "showImage",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Layer",
+            "properties": []
+        },
+        {
+            "name": "Exit",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "JumpZone",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "hint",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "hint",
+                    "label": "Property 1",
+                    "tooltip": "Property 1",
+                    "defValue": "",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "asset-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "pause",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "restart",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    },
+    "javaScriptInitFieldsInConstructor": true
+}
