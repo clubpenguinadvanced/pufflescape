@@ -1,5 +1,6 @@
 //debug drag
 var dragEnable = true;
+globalThis.color = 'purple';
 
 window.addEventListener('load', function () {
 

@@ -1,0 +1,240 @@
+{
+    "id": "466e5c9f-e7df-4629-8970-cfd744a56b99",
+    "sceneType": "PREFAB",
+    "settings": {
+        "javaScriptInitFieldsInConstructor": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1520,
+        "borderHeight": 960
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "1bd09fd3-3e93-4d25-ada2-a9982cbdb536",
+            "label": "container",
+            "components": [],
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "a24fe546-fa1d-48c8-8ffe-7c946435253e",
+                    "label": "finish",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "finish"
+                    },
+                    "x": -9,
+                    "y": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "918bbb13-edfc-4840-9dcc-e8a6547095dc",
+                    "label": "color",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "texture": {
+                        "key": "colorSplashArt",
+                        "frame": "purpleFinish.png"
+                    },
+                    "x": -278,
+                    "y": -311
+                },
+                {
+                    "type": "Image",
+                    "id": "0e8f2d58-b5de-4547-a0e9-55a7502ae4b0",
+                    "label": "oberrysingular0001_png",
+                    "components": [],
+                    "texture": {
+                        "key": "collectables",
+                        "frame": "oberrysingular0001.png"
+                    },
+                    "x": -103,
+                    "y": 11
+                },
+                {
+                    "type": "Image",
+                    "id": "c9ec61e8-1eee-428a-9cba-0be5e79c8b44",
+                    "label": "oberrysingular0001_png_1",
+                    "components": [],
+                    "texture": {
+                        "key": "collectables",
+                        "frame": "oberrysingular0001.png"
+                    },
+                    "x": -17,
+                    "y": 11
+                },
+                {
+                    "type": "Image",
+                    "id": "3fdcc09f-824e-4c38-a62d-a63eaee51889",
+                    "label": "oberrysingular0001_png_2",
+                    "components": [],
+                    "texture": {
+                        "key": "collectables",
+                        "frame": "oberrysingular0001.png"
+                    },
+                    "x": 66,
+                    "y": 11
+                },
+                {
+                    "type": "Image",
+                    "id": "beb7c97c-9299-45ed-829f-619596eba25d",
+                    "label": "oberrysingular0001_png_3",
+                    "components": [],
+                    "texture": {
+                        "key": "collectables",
+                        "frame": "oberrysingular0001.png"
+                    },
+                    "x": 87,
+                    "y": 11
+                },
+                {
+                    "type": "Image",
+                    "id": "ae4ec127-ce20-4eca-af39-1a131b1c5621",
+                    "label": "oberrysingular0001_png_4",
+                    "components": [],
+                    "texture": {
+                        "key": "collectables",
+                        "frame": "oberrysingular0001.png"
+                    },
+                    "x": 108,
+                    "y": 11
+                },
+                {
+                    "type": "Text",
+                    "id": "c80405c9-5fe7-4371-8263-0c948767456a",
+                    "label": "text_1",
+                    "components": [],
+                    "x": -319,
+                    "y": -104,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Extreme levels coming soon!\n",
+                    "fontFamily": "Brush Script MT",
+                    "fontSize": "50px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 1,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#8a8a8aff",
+                    "shadow.blur": 2
+                },
+                {
+                    "type": "Text",
+                    "id": "3174ed32-c403-419f-aa74-04101c9283bd",
+                    "label": "textName",
+                    "scope": "PUBLIC",
+                    "components": [],
+                    "x": -296,
+                    "y": -184,
+                    "originX": 0,
+                    "originY": 0,
+                    "text": "Level # Complete!",
+                    "fontFamily": "Brush Script MT",
+                    "fontSize": "70px",
+                    "fontStyle": "bold",
+                    "color": "#000000ff",
+                    "stroke": "#ffffffff",
+                    "shadow.offsetX": 2,
+                    "shadow.offsetY": 1,
+                    "shadow.stroke": true,
+                    "shadow.fill": true,
+                    "shadow.color": "#696969ff",
+                    "shadow.blur": 2
+                },
+                {
+                    "type": "Image",
+                    "id": "208472c9-5227-4e93-90af-42feca0d5e98",
+                    "label": "nextGoTo",
+                    "scope": "PUBLIC",
+                    "components": [
+                        "InteractiveObject",
+                        "PointerHandler"
+                    ],
+                    "PointerHandler.texOver": "nextOver.png",
+                    "PointerHandler.texOut": "nextOut.png",
+                    "PointerHandler.texOn": "nextOn.png",
+                    "texture": {
+                        "key": "pauseMenu",
+                        "frame": "nextOut.png"
+                    },
+                    "x": 157,
+                    "y": 124
+                },
+                {
+                    "type": "Image",
+                    "id": "66db6d34-eedd-4cad-8d12-b1ab4119bbab",
+                    "label": "restartOut_png",
+                    "scope": "PUBLIC",
+                    "components": [
+                        "InteractiveObject",
+                        "PointerHandler",
+                        "restart"
+                    ],
+                    "PointerHandler.texOver": "restartOver.png",
+                    "PointerHandler.texOut": "restartOut.png",
+                    "PointerHandler.texOn": "restartOn.png",
+                    "texture": {
+                        "key": "pauseMenu",
+                        "frame": "restartOut.png"
+                    },
+                    "x": -39,
+                    "y": 124
+                },
+                {
+                    "type": "Image",
+                    "id": "3f2eba0b-1fbe-4ffd-a366-903753c8bcf2",
+                    "label": "menuOut_png",
+                    "scope": "PUBLIC",
+                    "components": [
+                        "InteractiveObject",
+                        "PointerHandler",
+                        "goToLevel"
+                    ],
+                    "PointerHandler.texOver": "menuOver.png",
+                    "PointerHandler.texOut": "menuOut.png",
+                    "PointerHandler.texOn": "menuOn.png",
+                    "goToLevel.sceneKey": "LevelSelect",
+                    "texture": {
+                        "key": "pauseMenu",
+                        "frame": "menuOut.png"
+                    },
+                    "x": -198,
+                    "y": 124
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 2
+    },
+    "prefabProperties": [
+        {
+            "name": "nextLevel",
+            "label": "next level",
+            "tooltip": "key",
+            "defValue": "",
+            "customDefinition": true,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "levelName",
+            "label": "level name",
+            "tooltip": "name",
+            "defValue": "",
+            "customDefinition": true,
+            "type": {
+                "id": "string"
+            }
+        }
+    ]
+}

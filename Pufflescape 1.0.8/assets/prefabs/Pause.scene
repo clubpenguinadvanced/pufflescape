@@ -2,6 +2,7 @@
     "id": "c58d1867-5649-492a-ac5a-4ef091be9d17",
     "sceneType": "PREFAB",
     "settings": {
+        "javaScriptInitFieldsInConstructor": true,
         "preloadMethodName": "",
         "preloadPackFiles": [],
         "createMethodName": "",
@@ -89,7 +90,7 @@
                 {
                     "type": "Text",
                     "id": "2b6b35cd-5764-4fbe-9b60-4a882acad8dc",
-                    "label": "text",
+                    "label": "textAtPause",
                     "scope": "PUBLIC",
                     "components": [],
                     "y": -15,
@@ -110,14 +111,15 @@
                 {
                     "type": "Image",
                     "id": "f07fbd34-6b97-4b14-b861-d565d978d132",
-                    "label": "purplePause_png",
+                    "label": "colorSprite",
+                    "scope": "PUBLIC",
                     "components": [],
                     "texture": {
                         "key": "colorSplashArt",
                         "frame": "purplePause.png"
                     },
                     "x": 47,
-                    "y": -285,
+                    "y": -266,
                     "scaleX": 0.47031073944830704,
                     "scaleY": 0.47031073944830704
                 }
@@ -136,8 +138,8 @@
             "name": "lvlName",
             "label": "name",
             "tooltip": "name",
-            "defValue": "Level 1",
-            "customDefinition": false,
+            "defValue": "",
+            "customDefinition": true,
             "type": {
                 "id": "string"
             }

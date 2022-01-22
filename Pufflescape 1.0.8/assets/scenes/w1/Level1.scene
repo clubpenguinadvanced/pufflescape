@@ -419,10 +419,13 @@
                 "y",
                 "scaleX",
                 "scaleY",
-                "lvlName"
+                "lvlName",
+                "pauseColor"
             ],
             "label": "pauseScreen",
             "scope": "PUBLIC",
+            "lvlName": "Level 1",
+            "pauseColor": "purple",
             "components": [],
             "x": -753,
             "y": 1373,
@@ -452,194 +455,23 @@
                     "height": 960
                 },
                 {
-                    "type": "Image",
-                    "id": "a76f098e-1f9d-47dd-9e6f-64011bda64aa",
-                    "label": "finish",
+                    "prefabId": "466e5c9f-e7df-4629-8970-cfd744a56b99",
+                    "id": "999f9bac-70f6-4022-b3d8-8536a6d369d1",
+                    "unlock": [
+                        "x",
+                        "y",
+                        "endColor",
+                        "nextLevel",
+                        "levelName"
+                    ],
+                    "label": "endUIFinal",
                     "scope": "PUBLIC",
+                    "nextLevel": "Level2",
+                    "levelName": "Level 1",
                     "components": [],
-                    "texture": {
-                        "key": "finish"
-                    },
                     "x": -753,
-                    "y": 503
-                },
-                {
-                    "type": "Image",
-                    "id": "d623c2c6-42eb-48dd-8666-54cd43171eec",
-                    "label": "menuOut_png",
-                    "scope": "PUBLIC",
-                    "components": [
-                        "InteractiveObject",
-                        "PointerHandler",
-                        "goToLevel"
-                    ],
-                    "PointerHandler.texOver": "menuOver.png",
-                    "PointerHandler.texOut": "menuOut.png",
-                    "PointerHandler.texOn": "menuOn.png",
-                    "goToLevel.sceneKey": "LevelSelect",
-                    "texture": {
-                        "key": "pauseMenu",
-                        "frame": "menuOut.png"
-                    },
-                    "x": -942,
-                    "y": 625
-                },
-                {
-                    "type": "Image",
-                    "id": "9d18533f-c9be-4aa7-ad83-e2f29b76febe",
-                    "label": "restartOut_png",
-                    "scope": "PUBLIC",
-                    "components": [
-                        "InteractiveObject",
-                        "PointerHandler",
-                        "restart"
-                    ],
-                    "PointerHandler.texOver": "restartOver.png",
-                    "PointerHandler.texOut": "restartOut.png",
-                    "PointerHandler.texOn": "restartOn.png",
-                    "texture": {
-                        "key": "pauseMenu",
-                        "frame": "restartOut.png"
-                    },
-                    "x": -783,
-                    "y": 625
-                },
-                {
-                    "type": "Image",
-                    "id": "73d31e1a-37bc-4c1d-a011-f1ded80647b9",
-                    "label": "resumeOut_png",
-                    "scope": "PUBLIC",
-                    "components": [
-                        "InteractiveObject",
-                        "PointerHandler",
-                        "goToLevel"
-                    ],
-                    "PointerHandler.texOver": "resumeOver.png",
-                    "PointerHandler.texOut": "resumeOut.png",
-                    "PointerHandler.texOn": "resumeOn.png",
-                    "goToLevel.sceneKey": "Level2",
-                    "texture": {
-                        "key": "pauseMenu",
-                        "frame": "resumeOut.png"
-                    },
-                    "x": -587,
-                    "y": 625
-                },
-                {
-                    "type": "Text",
-                    "id": "6126e946-73a2-4729-a45f-668e7573b313",
-                    "label": "text",
-                    "scope": "PUBLIC",
-                    "components": [],
-                    "x": -1040,
-                    "y": 317,
-                    "originX": 0,
-                    "originY": 0,
-                    "text": "Level 1 Complete!",
-                    "fontFamily": "Brush Script MT",
-                    "fontSize": "70px",
-                    "fontStyle": "bold",
-                    "color": "#000000ff",
-                    "stroke": "#ffffffff",
-                    "shadow.offsetX": 2,
-                    "shadow.offsetY": 1,
-                    "shadow.stroke": true,
-                    "shadow.fill": true,
-                    "shadow.color": "#696969ff",
-                    "shadow.blur": 2
-                },
-                {
-                    "type": "Text",
-                    "id": "f28ea27b-1b29-4d47-a713-2240d886c064",
-                    "label": "text_1",
-                    "components": [],
-                    "x": -1063,
-                    "y": 397,
-                    "originX": 0,
-                    "originY": 0,
-                    "text": "Extreme levels coming soon!\n",
-                    "fontFamily": "Brush Script MT",
-                    "fontSize": "50px",
-                    "fontStyle": "bold",
-                    "color": "#000000ff",
-                    "shadow.offsetX": 2,
-                    "shadow.offsetY": 1,
-                    "shadow.stroke": true,
-                    "shadow.fill": true,
-                    "shadow.color": "#8a8a8aff",
-                    "shadow.blur": 2
-                },
-                {
-                    "type": "Image",
-                    "id": "bfcae29a-9a69-4701-a825-d2f56ac8770b",
-                    "label": "oberrysingular0001_png_4",
-                    "components": [],
-                    "texture": {
-                        "key": "collectables",
-                        "frame": "oberrysingular0001.png"
-                    },
-                    "x": -636,
-                    "y": 512
-                },
-                {
-                    "type": "Image",
-                    "id": "81bb6bc2-063c-44f8-bc68-ac91df2ec6b2",
-                    "label": "oberrysingular0001_png_3",
-                    "components": [],
-                    "texture": {
-                        "key": "collectables",
-                        "frame": "oberrysingular0001.png"
-                    },
-                    "x": -657,
-                    "y": 512
-                },
-                {
-                    "type": "Image",
-                    "id": "6844f9ea-3eae-4eee-91bb-cc33836a0e8e",
-                    "label": "oberrysingular0001_png_2",
-                    "components": [],
-                    "texture": {
-                        "key": "collectables",
-                        "frame": "oberrysingular0001.png"
-                    },
-                    "x": -678,
-                    "y": 512
-                },
-                {
-                    "type": "Image",
-                    "id": "aebf9ff4-fb91-470e-925b-3fd53b8c9c83",
-                    "label": "oberrysingular0001_png_1",
-                    "components": [],
-                    "texture": {
-                        "key": "collectables",
-                        "frame": "oberrysingular0001.png"
-                    },
-                    "x": -761,
-                    "y": 512
-                },
-                {
-                    "type": "Image",
-                    "id": "3de5d057-d47c-4c86-8068-b68abc7a5f27",
-                    "label": "oberrysingular0001_png",
-                    "components": [],
-                    "texture": {
-                        "key": "collectables",
-                        "frame": "oberrysingular0001.png"
-                    },
-                    "x": -847,
-                    "y": 512
-                },
-                {
-                    "type": "Image",
-                    "id": "c4dbe65e-3d72-46fa-aad6-6555ebe9c4e8",
-                    "label": "purpleFinish_png",
-                    "components": [],
-                    "texture": {
-                        "key": "colorSplashArt",
-                        "frame": "purpleFinish.png"
-                    },
-                    "x": -1022,
-                    "y": 190
+                    "y": 497,
+                    "nestedPrefabs": []
                 }
             ]
         }

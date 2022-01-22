@@ -8,6 +8,18 @@ class Pause extends Phaser.GameObjects.Container {
 	constructor(scene, x, y) {
 		super(scene, x ?? 0, y ?? 0);
 
+		/** @type {Phaser.GameObjects.Image} */
+		this.menu;
+		/** @type {Phaser.GameObjects.Image} */
+		this.restart;
+		/** @type {Phaser.GameObjects.Image} */
+		this.resume;
+		/** @type {Phaser.GameObjects.Text} */
+		this.textAtPause;
+		/** @type {Phaser.GameObjects.Image} */
+		this.colorSprite;
+
+
 		// pause
 		const pause = scene.add.image(36, 18, "pause");
 		this.add(pause);
@@ -24,18 +36,18 @@ class Pause extends Phaser.GameObjects.Container {
 		const resume = scene.add.image(171, 101, "pauseMenu", "resumeOut.png");
 		this.add(resume);
 
-		// text
-		const text = scene.add.text(0, -15, "", {});
-		text.setOrigin(0.5, 0.5);
-		text.text = "Level #";
-		text.setStyle({"align":"center","color":"#000000ff","fontFamily":"Brush Script MT","fontSize":"60px","fontStyle":"bold","stroke":"#7b7b7bff","shadow.offsetX":2,"shadow.offsetY":1,"shadow.color":"#4c4c4cff","shadow.blur":2,"shadow.stroke":true,"shadow.fill":true});
-		this.add(text);
+		// textAtPause
+		const textAtPause = scene.add.text(0, -15, "", {});
+		textAtPause.setOrigin(0.5, 0.5);
+		textAtPause.text = "Level #";
+		textAtPause.setStyle({"align":"center","color":"#000000ff","fontFamily":"Brush Script MT","fontSize":"60px","fontStyle":"bold","stroke":"#7b7b7bff","shadow.offsetX":2,"shadow.offsetY":1,"shadow.color":"#4c4c4cff","shadow.blur":2,"shadow.stroke":true,"shadow.fill":true});
+		this.add(textAtPause);
 
-		// purplePause_png
-		const purplePause_png = scene.add.image(47, -285, "colorSplashArt", "purplePause.png");
-		purplePause_png.scaleX = 0.47031073944830704;
-		purplePause_png.scaleY = 0.47031073944830704;
-		this.add(purplePause_png);
+		// colorSprite
+		const colorSprite = scene.add.image(47, -266, "colorSplashArt", "purplePause.png");
+		colorSprite.scaleX = 0.47031073944830704;
+		colorSprite.scaleY = 0.47031073944830704;
+		this.add(colorSprite);
 
 		// menu (components)
 		new InteractiveObject(menu);
@@ -63,10 +75,11 @@ class Pause extends Phaser.GameObjects.Container {
 		this.menu = menu;
 		this.restart = restart;
 		this.resume = resume;
-		this.text = text;
+		this.textAtPause = textAtPause;
+		this.colorSprite = colorSprite;
 
 		/* START-USER-CTR-CODE */
-		this.text.setText(this.lvlName);
+		this.colorSprite.setTexture('colorSplashArt', globalThis.color.concat('Pause.png'));
 		this.setDepth(15);
 
 
@@ -91,22 +104,16 @@ class Pause extends Phaser.GameObjects.Container {
 			this.scene.scene.restart();
 		});
 		/* END-USER-CTR-CODE */
+
+		// custom definition props
+		this.lvlName = "";
 	}
 
-	/** @type {Phaser.GameObjects.Image} */
-	menu;
-	/** @type {Phaser.GameObjects.Image} */
-	restart;
-	/** @type {Phaser.GameObjects.Image} */
-	resume;
-	/** @type {Phaser.GameObjects.Text} */
-	text;
-	/** @type {string} */
-	lvlName = "Level 1";
 
 	/* START-USER-CODE */
-
-
+	set lvlName(lvlName) {
+		this.textAtPause.text = lvlName;
+	}
 
 	/* END-USER-CODE */
 }

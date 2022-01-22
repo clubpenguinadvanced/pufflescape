@@ -101,6 +101,13 @@
                 "key": "end"
             },
             {
+                "url": [
+                    "assets/prefabs/endUI.js"
+                ],
+                "type": "scripts",
+                "key": "endUI"
+            },
+            {
                 "url": "assets/images/exitOver.png",
                 "type": "image",
                 "key": "exitOver"
@@ -114,13 +121,6 @@
                 "url": "assets/images/foreground2.png",
                 "type": "image",
                 "key": "foreground2"
-            },
-            {
-                "url": [
-                    "assets/prefabs/FullUI.js"
-                ],
-                "type": "scripts",
-                "key": "FullUI"
             },
             {
                 "url": [

@@ -49,16 +49,8 @@ class Level1 extends Phaser.Scene {
 		this.endScreen;
 		/** @type {Phaser.GameObjects.Rectangle} */
 		this.menuFade;
-		/** @type {Phaser.GameObjects.Image} */
-		this.finish;
-		/** @type {Phaser.GameObjects.Image} */
-		this.menuOut_png;
-		/** @type {Phaser.GameObjects.Image} */
-		this.restartOut_png;
-		/** @type {Phaser.GameObjects.Image} */
-		this.resumeOut_png;
-		/** @type {Phaser.GameObjects.Text} */
-		this.text;
+		/** @type {endUI} */
+		this.endUIFinal;
 
 
 		/* START-USER-CTR-CODE */
@@ -223,57 +215,9 @@ class Level1 extends Phaser.Scene {
 		menuFade.fillColor = 0;
 		endScreen.add(menuFade);
 
-		// finish
-		const finish = this.add.image(-753, 503, "finish");
-		endScreen.add(finish);
-
-		// menuOut_png
-		const menuOut_png = this.add.image(-942, 625, "pauseMenu", "menuOut.png");
-		endScreen.add(menuOut_png);
-
-		// restartOut_png
-		const restartOut_png = this.add.image(-783, 625, "pauseMenu", "restartOut.png");
-		endScreen.add(restartOut_png);
-
-		// resumeOut_png
-		const resumeOut_png = this.add.image(-587, 625, "pauseMenu", "resumeOut.png");
-		endScreen.add(resumeOut_png);
-
-		// text
-		const text = this.add.text(-1040, 317, "", {});
-		text.text = "Level 1 Complete!";
-		text.setStyle({"color":"#000000ff","fontFamily":"Brush Script MT","fontSize":"70px","fontStyle":"bold","stroke":"#ffffffff","shadow.offsetX":2,"shadow.offsetY":1,"shadow.color":"#696969ff","shadow.blur":2,"shadow.stroke":true,"shadow.fill":true});
-		endScreen.add(text);
-
-		// text_1
-		const text_1 = this.add.text(-1063, 397, "", {});
-		text_1.text = "Extreme levels coming soon!\n";
-		text_1.setStyle({"color":"#000000ff","fontFamily":"Brush Script MT","fontSize":"50px","fontStyle":"bold","shadow.offsetX":2,"shadow.offsetY":1,"shadow.color":"#8a8a8aff","shadow.blur":2,"shadow.stroke":true,"shadow.fill":true});
-		endScreen.add(text_1);
-
-		// oberrysingular0001_png_4
-		const oberrysingular0001_png_4 = this.add.image(-636, 512, "collectables", "oberrysingular0001.png");
-		endScreen.add(oberrysingular0001_png_4);
-
-		// oberrysingular0001_png_3
-		const oberrysingular0001_png_3 = this.add.image(-657, 512, "collectables", "oberrysingular0001.png");
-		endScreen.add(oberrysingular0001_png_3);
-
-		// oberrysingular0001_png_2
-		const oberrysingular0001_png_2 = this.add.image(-678, 512, "collectables", "oberrysingular0001.png");
-		endScreen.add(oberrysingular0001_png_2);
-
-		// oberrysingular0001_png_1
-		const oberrysingular0001_png_1 = this.add.image(-761, 512, "collectables", "oberrysingular0001.png");
-		endScreen.add(oberrysingular0001_png_1);
-
-		// oberrysingular0001_png
-		const oberrysingular0001_png = this.add.image(-847, 512, "collectables", "oberrysingular0001.png");
-		endScreen.add(oberrysingular0001_png);
-
-		// purpleFinish_png
-		const purpleFinish_png = this.add.image(-1022, 190, "colorSplashArt", "purpleFinish.png");
-		endScreen.add(purpleFinish_png);
+		// endUIFinal
+		const endUIFinal = new endUI(this, -753, 497);
+		endScreen.add(endUIFinal);
 
 		// foreground (components)
 		new showImage(foreground);
@@ -323,34 +267,16 @@ class Level1 extends Phaser.Scene {
 		// rectangle_1 (components)
 		new hideImage(rectangle_1);
 
+		// pauseScreen (prefab fields)
+		pauseScreen.lvlName = "Level 1";
+		pauseScreen.pauseColor = "purple";
+
 		// menuFade (components)
 		new InteractiveObject(menuFade);
 
-		// menuOut_png (components)
-		new InteractiveObject(menuOut_png);
-		const menuOut_pngPointerHandler = new PointerHandler(menuOut_png);
-		menuOut_pngPointerHandler.texOver = "menuOver.png";
-		menuOut_pngPointerHandler.texOut = "menuOut.png";
-		menuOut_pngPointerHandler.texOn = "menuOn.png";
-		const menuOut_pnggoToLevel = new goToLevel(menuOut_png);
-		menuOut_pnggoToLevel.sceneKey = "LevelSelect";
-
-		// restartOut_png (components)
-		new InteractiveObject(restartOut_png);
-		const restartOut_pngPointerHandler = new PointerHandler(restartOut_png);
-		restartOut_pngPointerHandler.texOver = "restartOver.png";
-		restartOut_pngPointerHandler.texOut = "restartOut.png";
-		restartOut_pngPointerHandler.texOn = "restartOn.png";
-		new restart(restartOut_png);
-
-		// resumeOut_png (components)
-		new InteractiveObject(resumeOut_png);
-		const resumeOut_pngPointerHandler = new PointerHandler(resumeOut_png);
-		resumeOut_pngPointerHandler.texOver = "resumeOver.png";
-		resumeOut_pngPointerHandler.texOut = "resumeOut.png";
-		resumeOut_pngPointerHandler.texOn = "resumeOn.png";
-		const resumeOut_pnggoToLevel = new goToLevel(resumeOut_png);
-		resumeOut_pnggoToLevel.sceneKey = "Level2";
+		// endUIFinal (prefab fields)
+		endUIFinal.nextLevel = "Level2";
+		endUIFinal.levelName = "Level 1";
 
 		this.rampExample = rampExample;
 		this.keyExample = keyExample;
@@ -369,11 +295,7 @@ class Level1 extends Phaser.Scene {
 		this.pauseScreen = pauseScreen;
 		this.endScreen = endScreen;
 		this.menuFade = menuFade;
-		this.finish = finish;
-		this.menuOut_png = menuOut_png;
-		this.restartOut_png = restartOut_png;
-		this.resumeOut_png = resumeOut_png;
-		this.text = text;
+		this.endUIFinal = endUIFinal;
 
 		this.events.emit("scene-awake");
 	}
@@ -395,6 +317,7 @@ class Level1 extends Phaser.Scene {
 		ball.depth = 3;
 
 		this.editorCreate();
+		//this.endUIFinal.update();
 		//var mask = this.hintMask.createBitmapMask();
 		//this.level1Hint.setMask(mask);
 
